@@ -470,7 +470,7 @@ if attempts >= max_attempts:
 random.shuffle(all_data)
 
 # Tulis ke file CSV
-output_filename = 'bank_sentiment_dataset_unique.csv'
+output_filename = 'temp/bank_sentiment_dataset_unique.csv'
 with open(output_filename, 'w', newline='', encoding='utf-8') as f:
     writer = csv.DictWriter(f, fieldnames=['teks', 'target_bank', 'sentimen'])
     writer.writeheader()

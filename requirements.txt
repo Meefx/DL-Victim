@@ -1,0 +1,20 @@
+# Core data science libraries
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.0
+
+# Machine learning and NLP
+torch==2.7.1
+torchvision==0.18.1
+transformers==4.53.1
+datasets==2.19.1
+
+# API and HTTP requests (for GPT API calls)
+openai==1.93.0
+requests==2.31.0
+
+# Progress bars and utilities
+tqdm==4.66.1
+
+# Environment variables
+python-dotenv==1.0.0
